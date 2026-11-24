@@ -1,42 +1,50 @@
 <div align="center">
 
-```text
-   ╭──────────────────────────────────────────────────────────────╮
-   │   ✦  S N S X   S P A C E  ✦                                 │
-   │   CEH. Satya Narayan Sahu   //   profile.boot()             │
-   │   systems · language · security · intelligence              │
-   ╰──────────────────────────────────────────────────────────────╯
-```
+<img src="assets/hero.svg" alt="SNSX SPACE — CEH. Satya Narayan Sahu" width="1200" />
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=2800&pause=1000&color=34D399&center=true&vCenter=true&width=780&lines=I+build+the+layer+where+systems%2C+security+%26+intelligence+meet%3B+Welcome+to+SNSX+SPACE%3B+This+is+Satya+Narayan+Sahu" alt="I build the layer where systems, security and intelligence meet" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=2600&pause=1100&color=34D399&center=true&vCenter=true&width=860&lines=I+design+systems%2C+languages+%26+security%3B+I+build+AI+that+teaches+and+acts%3B+Welcome+to+my+orbit%2C+I%27m+Satya" alt="I design systems, languages and security; I build AI that teaches and acts" />
 
-# ◈ CEH. Satya Narayan Sahu
-
-**Founder · SNSX SPACE &nbsp;|&nbsp; Builder · SNSAI &nbsp;|&nbsp; Systems & Language Engineer**
-
-![Public repositories](https://img.shields.io/github/repos/sahusatya2008?style=for-the-badge&logo=github&label=Repositories&color=0EA5E9)
+![Repositories](https://img.shields.io/github/repos/sahusatya2008?style=for-the-badge&logo=github&label=Repositories&color=0EA5E9)
 ![Followers](https://img.shields.io/github/followers/sahusatya2008?style=for-the-badge&logo=github&label=Followers&color=22C55E)
 ![Availability](https://img.shields.io/badge/Availability-Open%20to%20work-22C55E?style=for-the-badge&logo=checkmarx)
 ![Building since](https://img.shields.io/badge/Building%20since-2020-7C3AED?style=for-the-badge)
 
 </div>
 
----
+<img src="assets/divider.svg" alt="" width="1200" />
 
 ## 🛰️ Mission control
 
 > The pinned cards below are the **artifacts**. This is the **flight plan**.
 
-| Layer | What lives here |
-|---|---|
-| 🧠 **Language** | SNSX — a programming language with its own compiler and security reasoning built into the toolchain, not bolted on afterwards. |
-| 🧱 **Systems** | Kernels, terminals and operating systems written from first principles in C and assembly. |
-| 🛡️ **Security** | The belief that security is a property of the whole design, never a final checkbox. |
-| 🤖 **Intelligence** | SNSAI systems that teach, reason and act — from AI-guided harmonium learning to AI-driven commerce. |
-| 🎓 **Education** | LEOU — a production platform where identity, entitlement and interactive 3D explanation meet. |
-| 🌍 **Space** | NASA Space Apps work that maps Earth locations as analogues for lunar and Martian environments. |
+<table>
+  <tr>
+    <td align="center" width="90">🧠</td>
+    <td align="left"><b>Language</b><br><sub>SNSX — a programming language with its own compiler and security reasoning built into the toolchain, not bolted on afterwards.</sub></td>
+  </tr>
+  <tr>
+    <td align="center">🧱</td>
+    <td align="left"><b>Systems</b><br><sub>Kernels, terminals and operating systems written from first principles in C and assembly.</sub></td>
+  </tr>
+  <tr>
+    <td align="center">🛡️</td>
+    <td align="left"><b>Security</b><br><sub>The belief that security is a property of the whole design, never a final checkbox.</sub></td>
+  </tr>
+  <tr>
+    <td align="center">🤖</td>
+    <td align="left"><b>Intelligence</b><br><sub>SNSAI systems that teach, reason and act — from AI-guided harmonium learning to AI-driven commerce.</sub></td>
+  </tr>
+  <tr>
+    <td align="center">🎓</td>
+    <td align="left"><b>Education</b><br><sub>LEOU — a production platform where identity, entitlement and interactive 3D explanation meet.</sub></td>
+  </tr>
+  <tr>
+    <td align="center">🌍</td>
+    <td align="left"><b>Space</b><br><sub>NASA Space Apps work that maps Earth locations as analogues for lunar and Martian environments.</sub></td>
+  </tr>
+</table>
 
----
+<img src="assets/divider.svg" alt="" width="1200" />
 
 ## 🚀 Currently in orbit
 
@@ -45,8 +53,6 @@
 - **[SNSX SecurityOS](https://github.com/sahusatya2008/SNSX-SecurityOS)** — a security-first operating system line built from the ground up.
 - **[Satya Sangeet Harmonium](https://github.com/sahusatya2008/Satya-Sangeet-Harmonium)** — an AI guide that teaches harmonium by actually playing it.
 - **[LEOU Advance Learning](https://github.com/sahusatya2008/leou-advance-learning)** — biometric login, manual UPI billing and interactive 3D courses for students.
-
----
 
 ## 🧰 Constellation
 
@@ -68,31 +74,32 @@
 
 </div>
 
----
+<img src="assets/divider.svg" alt="" width="1200" />
 
 ## 📡 Telemetry
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs?username=sahusatya2008&show_icons=true&locale=en&layout=compact&theme=radical&hide_border=true" alt="Most used languages across public repositories" />
+<img src="https://github-readme-stats.vercel.app/api?username=sahusatya2008&show_icons=true&locale=en&theme=radical&hide_border=true&include_all_commits=true" alt="GitHub statistics" />
+
+<img src="https://github-readme-stats.vercel.app/api/top-langs?username=sahusatya2008&show_icons=true&locale=en&layout=compact&theme=radical&hide_border=true" alt="Most used languages" />
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=sahusatya2008&theme=github-dark&bg_color=0d1117&color=34d399&line=34d399&point=a78bfa&area=true&hide_border=true" alt="Contribution activity graph" />
 
 <sub>The graph grows every time something ships.</sub>
 
 </div>
 
----
-
-## 🧭 Connect
+<img src="assets/divider.svg" alt="" width="1200" />
 
 <div align="center">
 
-[🌐 Founder page](https://www.snsx.earth/founder) &nbsp;·&nbsp; [✉️ Email](mailto:rolexsns@outlook.com) &nbsp;·&nbsp; [🐙 GitHub](https://github.com/sahusatya2008) &nbsp;·&nbsp; [🧩 All repositories](https://github.com/sahusatya2008?tab=repositories)
+[![Website](https://img.shields.io/badge/Website-snsx.earth-7C3AED?style=for-the-badge)](https://www.snsx.earth/founder)
+[![Email](https://img.shields.io/badge/Email-rolexsns%40outlook.com-0EA5E9?style=for-the-badge&logo=gmail&logoColor=white)](mailto:rolexsns@outlook.com)
+[![GitHub](https://img.shields.io/badge/GitHub-sahusatya2008-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/sahusatya2008)
+[![Open to work](https://img.shields.io/badge/Open%20to%20work-Yes-22C55E?style=for-the-badge)](https://www.snsx.earth/founder)
 
-</div>
-
----
-
-<div align="center">
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=120&section=footer&text=LET%27S%20BUILD%20SOMETHING%20REAL&fontSize=30&animation=fadeIn&fontColor=ffffff" alt="Let's build something real" width="1200" />
 
 <sub>**Designed in SNSX SPACE · written in public · 2020 → ∞**</sub>
 
