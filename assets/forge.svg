@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1200" height="230" viewBox="0 0 1200 230" role="img" aria-label="animated SNSX system forge">
+  <defs>
+    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0a1a2c"/>
+      <stop offset="100%" stop-color="#040912"/>
+    </linearGradient>
+    <radialGradient id="core" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ecfeff" stop-opacity="0.95"/>
+      <stop offset="35%" stop-color="#22d3ee" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#22d3ee" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="glow" x="-70%" y="-70%" width="240%" height="240%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <path id="beam1" d="M 600 115 C 470 70 360 60 220 92"/>
+    <path id="beam2" d="M 600 115 C 470 160 360 172 220 140"/>
+    <path id="beam3" d="M 600 115 C 730 70 840 60 980 92"/>
+    <path id="beam4" d="M 600 115 C 730 160 840 172 980 140"/>
+  </defs>
+
+  <rect x="1" y="1" width="1198" height="228" rx="22" fill="url(#panel)" stroke="#1e3a5f" stroke-opacity="0.7"/>
+  <g stroke="#38bdf8" stroke-opacity="0.06">
+    <path d="M0 46 H1200 M0 92 H1200 M0 138 H1200 M0 184 H1200"/>
+    <path d="M120 0 V230 M240 0 V230 M360 0 V230 M480 0 V230 M720 0 V230 M840 0 V230 M960 0 V230 M1080 0 V230"/>
+  </g>
+
+  <g fill="none" stroke-width="1.5">
+    <use xlink:href="#beam1" stroke="#34d399" stroke-opacity="0.4" stroke-dasharray="6 9"><animate attributeName="stroke-dashoffset" from="0" to="-150" dur="6s" repeatCount="indefinite"/></use>
+    <use xlink:href="#beam2" stroke="#22d3ee" stroke-opacity="0.4" stroke-dasharray="6 9"><animate attributeName="stroke-dashoffset" from="0" to="150" dur="7s" repeatCount="indefinite"/></use>
+    <use xlink:href="#beam3" stroke="#a78bfa" stroke-opacity="0.4" stroke-dasharray="5 8"><animate attributeName="stroke-dashoffset" from="0" to="-130" dur="6.5s" repeatCount="indefinite"/></use>
+    <use xlink:href="#beam4" stroke="#f0abfc" stroke-opacity="0.4" stroke-dasharray="5 8"><animate attributeName="stroke-dashoffset" from="0" to="130" dur="7.5s" repeatCount="indefinite"/></use>
+  </g>
+
+  <g fill="#ecfeff" filter="url(#glow)">
+    <circle r="2.4"><animateMotion dur="6s" repeatCount="indefinite"><mpath xlink:href="#beam1"/></animateMotion></circle>
+    <circle r="2.4"><animateMotion dur="7s" repeatCount="indefinite"><mpath xlink:href="#beam2"/></animateMotion></circle>
+    <circle r="2.2" fill="#ddd6fe"><animateMotion dur="6.5s" repeatCount="indefinite"><mpath xlink:href="#beam3"/></animateMotion></circle>
+    <circle r="2.2" fill="#fbcfe8"><animateMotion dur="7.5s" repeatCount="indefinite"><mpath xlink:href="#beam4"/></animateMotion></circle>
+  </g>
+
+  <circle cx="600" cy="115" r="74" fill="url(#core)">
+    <animate attributeName="r" values="62;82;62" dur="5s" repeatCount="indefinite"/>
+  </circle>
+  <polygon points="600,58 650,86 650,144 600,172 550,144 550,86" fill="#061321" stroke="#34d399" stroke-opacity="0.7" stroke-width="1.6"/>
+  <polygon points="600,44 664,80 664,150 600,186 536,150 536,80" fill="none" stroke="#22d3ee" stroke-opacity="0.4" stroke-dasharray="7 9">
+    <animateTransform attributeName="transform" type="rotate" from="0 600 115" to="360 600 115" dur="18s" repeatCount="indefinite"/>
+  </polygon>
+  <polygon points="600,32 674,74 674,156 600,198 526,156 526,74" fill="none" stroke="#c4b5fd" stroke-opacity="0.3" stroke-dasharray="4 12">
+    <animateTransform attributeName="transform" type="rotate" from="360 600 115" to="0 600 115" dur="24s" repeatCount="indefinite"/>
+  </polygon>
+  <circle cx="600" cy="115" r="9" fill="#ecfeff" filter="url(#glow)">
+    <animate attributeName="opacity" values="1;0.45;1" dur="2.4s" repeatCount="indefinite"/>
+  </circle>
+  <text x="600" y="120" text-anchor="middle" font-family="Fira Code, Consolas, monospace" font-size="12" font-weight="800" letter-spacing="2" fill="#ecfeff">SNSX</text>
+
+  <g font-family="Fira Code, Consolas, monospace" font-size="12" font-weight="700" text-anchor="middle" fill="#dbeafe">
+    <g transform="translate(220 92)">
+      <circle r="24" fill="#07192a" stroke="#34d399" stroke-opacity="0.7"/>
+      <circle r="31" fill="none" stroke="#34d399" stroke-opacity="0.3"><animate attributeName="r" values="24;34;24" dur="3s" repeatCount="indefinite"/><animate attributeName="stroke-opacity" values="0.5;0.05;0.5" dur="3s" repeatCount="indefinite"/></circle>
+      <text y="5">COMPILE</text>
+    </g>
+    <g transform="translate(220 140)">
+      <circle r="24" fill="#07192a" stroke="#22d3ee" stroke-opacity="0.7"/>
+      <circle r="31" fill="none" stroke="#22d3ee" stroke-opacity="0.3"><animate attributeName="r" values="24;34;24" dur="3.6s" repeatCount="indefinite"/><animate attributeName="stroke-opacity" values="0.5;0.05;0.5" dur="3.6s" repeatCount="indefinite"/></circle>
+      <text y="5">AUDIT</text>
+    </g>
+    <g transform="translate(980 92)">
+      <circle r="24" fill="#07192a" stroke="#c4b5fd" stroke-opacity="0.7"/>
+      <circle r="31" fill="none" stroke="#c4b5fd" stroke-opacity="0.3"><animate attributeName="r" values="24;34;24" dur="3.4s" repeatCount="indefinite"/><animate attributeName="stroke-opacity" values="0.5;0.05;0.5" dur="3.4s" repeatCount="indefinite"/></circle>
+      <text y="5">BUILD</text>
+    </g>
+    <g transform="translate(980 140)">
+      <circle r="24" fill="#07192a" stroke="#f0abfc" stroke-opacity="0.7"/>
+      <circle r="31" fill="none" stroke="#f0abfc" stroke-opacity="0.3"><animate attributeName="r" values="24;34;24" dur="4.2s" repeatCount="indefinite"/><animate attributeName="stroke-opacity" values="0.5;0.05;0.5" dur="4.2s" repeatCount="indefinite"/></circle>
+      <text y="5">DEPLOY</text>
+    </g>
+  </g>
+
+  <text x="34" y="38" font-family="Fira Code, Consolas, monospace" font-size="11" letter-spacing="2.4" fill="#6ee7b7">SYSTEM FORGE // TOOLCHAIN ALWAYS ON</text>
+  <text x="1166" y="212" text-anchor="end" font-family="Fira Code, Consolas, monospace" font-size="11" letter-spacing="2.4" fill="#94a3b8">SECURITY BUILT IN, NEVER BOLTED ON</text>
+</svg>

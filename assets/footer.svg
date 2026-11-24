@@ -1,23 +1,30 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="190" viewBox="0 0 1200 190" role="img" aria-label="Let's build something real animated footer">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="210" viewBox="0 0 1200 210" role="img" aria-label="Let's build something real animated aurora footer">
   <defs>
     <linearGradient id="footerBg" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0%" stop-color="#07192a"/>
-      <stop offset="100%" stop-color="#0b0618"/>
+      <stop offset="50%" stop-color="#0a1024"/>
+      <stop offset="100%" stop-color="#12061d"/>
     </linearGradient>
     <linearGradient id="wave1" x1="0" y1="0" x2="1" y2="0">
       <stop offset="0%" stop-color="#34d399" stop-opacity="0.10"/>
-      <stop offset="50%" stop-color="#22d3ee" stop-opacity="0.45"/>
+      <stop offset="50%" stop-color="#22d3ee" stop-opacity="0.48"/>
       <stop offset="100%" stop-color="#c4b5fd" stop-opacity="0.10"/>
     </linearGradient>
     <linearGradient id="wave2" x1="0" y1="0" x2="1" y2="0">
       <stop offset="0%" stop-color="#22d3ee" stop-opacity="0.08"/>
-      <stop offset="50%" stop-color="#a78bfa" stop-opacity="0.35"/>
+      <stop offset="50%" stop-color="#a78bfa" stop-opacity="0.38"/>
       <stop offset="100%" stop-color="#22d3ee" stop-opacity="0.08"/>
     </linearGradient>
     <linearGradient id="textGrad" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#6ee7b7"/>
-      <stop offset="50%" stop-color="#67e8f9"/>
-      <stop offset="100%" stop-color="#ddd6fe"/>
+      <stop offset="0%" stop-color="#6ee7b7">
+        <animate attributeName="stop-color" values="#6ee7b7;#67e8f9;#ddd6fe;#6ee7b7" dur="8s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="50%" stop-color="#67e8f9">
+        <animate attributeName="stop-color" values="#67e8f9;#ddd6fe;#f0abfc;#67e8f9" dur="8s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%" stop-color="#ddd6fe">
+        <animate attributeName="stop-color" values="#ddd6fe;#6ee7b7;#67e8f9;#ddd6fe" dur="8s" repeatCount="indefinite"/>
+      </stop>
     </linearGradient>
     <filter id="glow" x="-40%" y="-80%" width="180%" height="260%">
       <feGaussianBlur in="SourceGraphic" stdDeviation="5" result="blur"/>
@@ -28,30 +35,57 @@
     </filter>
   </defs>
 
-  <rect width="1200" height="190" fill="url(#footerBg)"/>
+  <rect width="1200" height="210" fill="url(#footerBg)"/>
+
+  <g fill="none" stroke-width="2">
+    <path d="M0 96 Q150 50 300 96 T600 96 T900 96 T1200 96" stroke="#34d399" stroke-opacity="0.26">
+      <animate attributeName="d" values="M0 96 Q150 50 300 96 T600 96 T900 96 T1200 96;M0 96 Q150 138 300 96 T600 96 T900 96 T1200 96;M0 96 Q150 50 300 96 T600 96 T900 96 T1200 96" dur="8s" repeatCount="indefinite"/>
+    </path>
+    <path d="M0 112 Q150 74 300 112 T600 112 T900 112 T1200 112" stroke="#a78bfa" stroke-opacity="0.22">
+      <animate attributeName="d" values="M0 112 Q150 74 300 112 T600 112 T900 112 T1200 112;M0 112 Q150 150 300 112 T600 112 T900 112 T1200 112;M0 112 Q150 74 300 112 T600 112 T900 112 T1200 112" dur="10s" repeatCount="indefinite"/>
+    </path>
+  </g>
 
   <g fill="url(#wave2)">
-    <path d="M0 122 Q150 92 300 122 T600 122 T900 122 T1200 122 T1500 122 T1800 122 T2100 122 T2400 122 V190 H0 Z" opacity="0.5">
+    <path d="M0 130 Q150 100 300 130 T600 130 T900 130 T1200 130 T1500 130 T1800 130 T2100 130 T2400 130 V210 H0 Z" opacity="0.55">
       <animateTransform attributeName="transform" type="translate" from="0 0" to="-1200 0" dur="13s" repeatCount="indefinite"/>
     </path>
   </g>
   <g fill="url(#wave1)">
-    <path d="M0 140 Q150 112 300 140 T600 140 T900 140 T1200 140 T1500 140 T1800 140 T2100 140 T2400 140 V190 H0 Z" opacity="0.7">
+    <path d="M0 150 Q150 120 300 150 T600 150 T900 150 T1200 150 T1500 150 T1800 150 T2100 150 T2400 150 V210 H0 Z" opacity="0.75">
       <animateTransform attributeName="transform" type="translate" from="-1200 0" to="0 0" dur="9s" repeatCount="indefinite"/>
     </path>
   </g>
 
   <g fill="#a5f3fc">
-    <circle cx="170" cy="150" r="2"><animateTransform attributeName="transform" type="translate" values="0 20; 0 -90" dur="5s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0.9;0" dur="5s" repeatCount="indefinite"/></circle>
-    <circle cx="360" cy="160" r="1.6"><animateTransform attributeName="transform" type="translate" values="0 20; 0 -110" dur="6.2s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0.8;0" dur="6.2s" repeatCount="indefinite"/></circle>
-    <circle cx="600" cy="155" r="2.2"><animateTransform attributeName="transform" type="translate" values="0 20; 0 -100" dur="5.6s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;0" dur="5.6s" repeatCount="indefinite"/></circle>
-    <circle cx="840" cy="160" r="1.6"><animateTransform attributeName="transform" type="translate" values="0 20; 0 -105" dur="6.8s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0.8;0" dur="6.8s" repeatCount="indefinite"/></circle>
-    <circle cx="1030" cy="150" r="2"><animateTransform attributeName="transform" type="translate" values="0 20; 0 -95" dur="5.2s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0.9;0" dur="5.2s" repeatCount="indefinite"/></circle>
+    <circle cx="170" cy="160" r="2"><animateTransform attributeName="transform" type="translate" values="0 20; 0 -120" dur="5s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0.9;0" dur="5s" repeatCount="indefinite"/></circle>
+    <circle cx="360" cy="170" r="1.6"><animateTransform attributeName="transform" type="translate" values="0 20; 0 -140" dur="6.2s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0.8;0" dur="6.2s" repeatCount="indefinite"/></circle>
+    <circle cx="600" cy="165" r="2.2"><animateTransform attributeName="transform" type="translate" values="0 20; 0 -130" dur="5.6s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;0" dur="5.6s" repeatCount="indefinite"/></circle>
+    <circle cx="840" cy="170" r="1.6"><animateTransform attributeName="transform" type="translate" values="0 20; 0 -135" dur="6.8s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0.8;0" dur="6.8s" repeatCount="indefinite"/></circle>
+    <circle cx="1030" cy="160" r="2"><animateTransform attributeName="transform" type="translate" values="0 20; 0 -125" dur="5.2s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0.9;0" dur="5.2s" repeatCount="indefinite"/></circle>
   </g>
 
-  <circle cx="600" cy="74" r="46" fill="none" stroke="#22d3ee" stroke-opacity="0.25" stroke-dasharray="5 9">
-    <animateTransform attributeName="transform" type="rotate" from="0 600 74" to="360 600 74" dur="18s" repeatCount="indefinite"/>
-  </circle>
-  <text x="600" y="82" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="30" font-weight="800" letter-spacing="5" fill="url(#textGrad)" filter="url(#glow)">LET'S BUILD SOMETHING REAL<animate attributeName="opacity" values="0.4;1;0.4" dur="4s" repeatCount="indefinite"/></text>
-  <text x="600" y="112" text-anchor="middle" font-family="Fira Code, Consolas, monospace" font-size="12" letter-spacing="3" fill="#94a3b8">SNSX SPACE  ·  2020 → ∞  ·  WRITTEN IN PUBLIC</text>
+  <g fill="#ffffff" filter="url(#glow)">
+    <circle r="2"><animateMotion path="M -40 26 L 340 128" dur="8s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;0" dur="8s" repeatCount="indefinite"/></circle>
+    <circle r="1.6" fill="#fbcfe8"><animateMotion path="M 1240 30 L 860 138" dur="10s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0.9;0" dur="10s" repeatCount="indefinite"/></circle>
+  </g>
+
+  <g fill="none">
+    <circle cx="600" cy="80" r="48" stroke="#22d3ee" stroke-opacity="0.24" stroke-dasharray="5 9">
+      <animateTransform attributeName="transform" type="rotate" from="0 600 80" to="360 600 80" dur="18s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="600" cy="80" r="58" stroke="#c4b5fd" stroke-opacity="0.16" stroke-dasharray="3 12">
+      <animateTransform attributeName="transform" type="rotate" from="360 600 80" to="0 600 80" dur="24s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <g font-family="Fira Code, Consolas, monospace" font-size="11" letter-spacing="2">
+    <circle cx="488" cy="80" r="3" fill="#34d399"><animate attributeName="opacity" values="1;0.2;1" dur="2.6s" repeatCount="indefinite"/></circle>
+    <circle cx="712" cy="80" r="3" fill="#c4b5fd"><animate attributeName="opacity" values="0.2;1;0.2" dur="2.6s" repeatCount="indefinite"/></circle>
+    <text x="60" y="54" fill="#64748b">HANDSHAKE: OPEN</text>
+    <text x="1140" y="54" text-anchor="end" fill="#64748b">UPLINK: FOREVER</text>
+  </g>
+
+  <text x="600" y="88" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="30" font-weight="800" letter-spacing="5" fill="url(#textGrad)" filter="url(#glow)">LET'S BUILD SOMETHING REAL<animate attributeName="opacity" values="0.35;1;0.35" dur="4s" repeatCount="indefinite"/></text>
+  <text x="600" y="118" text-anchor="middle" font-family="Fira Code, Consolas, monospace" font-size="12" letter-spacing="3" fill="#94a3b8">SNSX SPACE  ·  2020 → ∞  ·  WRITTEN IN PUBLIC</text>
 </svg>

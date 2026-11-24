@@ -2,6 +2,8 @@
 
 <img src="assets/hero.svg" alt="SNSX SPACE - CEH. Satya Narayan Sahu" width="1400" />
 
+<img src="assets/portal.svg" alt="Animated launch sequence portal" width="1400" />
+
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=2500&pause=1000&color=34D399&center=true&vCenter=true&width=920&lines=I+design+systems%2C+languages+%26+security%3B+I+build+AI+that+teaches+and+acts%3B+I+map+Moon+and+Mars+from+Earth%3B+Welcome+to+my+orbit%2C+I%27m+Satya" alt="I design systems, languages and security; I build AI that teaches and acts; I map Moon and Mars from Earth" />
 
 ![Repositories](https://img.shields.io/badge/Repositories-53-0EA5E9?style=for-the-badge&logo=github&logoColor=white)
@@ -17,6 +19,8 @@
 ## 🛰️ Mission control
 
 <img src="assets/network.svg" alt="Animated SNSX mission network: language, systems, security, AI, education and space" width="1200" />
+
+<img src="assets/forge.svg" alt="Animated SNSX system forge: compile, audit, build and deploy" width="1200" />
 
 > The pinned cards below are the **artifacts**. This is the **flight plan**.
 
@@ -63,6 +67,8 @@
 
 ## 🧰 Constellation
 
+<img src="assets/constellation-map.svg" alt="Animated SNSX technology constellation map" width="1200" />
+
 <div align="center">
 
 ![Rust](https://img.shields.io/badge/Rust-DEA584?style=for-the-badge&logo=rust&logoColor=white)
@@ -87,6 +93,8 @@
 
 <div align="center">
 
+<img src="assets/radar.svg" alt="Animated live telemetry radar" width="1200" />
+
 <img src="assets/signal.svg" alt="Animated live signal meter" width="260" />
 
 <img src="https://github-readme-stats.vercel.app/api?username=sahusatya2008&show_icons=true&locale=en&theme=radical&hide_border=true&include_all_commits=true" alt="GitHub statistics" />
@@ -103,13 +111,15 @@
 
 ## 🧭 Connect
 
+<img src="assets/timeline.svg" alt="Animated mission timeline from 2020 to infinity" width="1200" />
+
 <div align="center">
 
 [![Website](https://img.shields.io/badge/Website-snsx.earth-7C3AED?style=for-the-badge)](https://www.snsx.earth/founder)
-[![Email](https://img.shields.io/badge/Email-sahusaatya%40snsx.earth-0EA5E9?style=for-the-badge&logo=gmail&logoColor=white)](mailto:sahusaatya@snsx.earth)
+[![Email](https://img.shields.io/badge/Email-sahusatya%40snsx.earth-0EA5E9?style=for-the-badge&logo=gmail&logoColor=white)](mailto:sahusatya@snsx.earth)
 [![GitHub](https://img.shields.io/badge/GitHub-sahusatya2008-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/sahusatya2008)
 [![Instagram](https://img.shields.io/badge/Instagram-thesatyaaaaa-E1306C?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/thesatyaaaaa)
-[![Open to work](https://img.shields.io/badge/Open%20to%20work-Yes-22C55E?style=for-the-badge)](mailto:sahusaatya@snsx.earth)
+[![Open to work](https://img.shields.io/badge/Open%20to%20work-Yes-22C55E?style=for-the-badge)](mailto:sahusatya@snsx.earth)
 
 <img src="assets/footer.svg" alt="Let's build something real" width="1200" />
 

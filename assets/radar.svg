@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="280" viewBox="0 0 1200 280" role="img" aria-label="animated live telemetry radar">
+  <defs>
+    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#08182b"/>
+      <stop offset="100%" stop-color="#04080f"/>
+    </linearGradient>
+    <linearGradient id="sweep" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#34d399" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#34d399" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="scan" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#22d3ee" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#22d3ee" stop-opacity="0.16"/>
+      <stop offset="100%" stop-color="#22d3ee" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="glow" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect x="1" y="1" width="1198" height="278" rx="22" fill="url(#panel)" stroke="#1e3a5f" stroke-opacity="0.7"/>
+
+  <path d="M -260 0 H -60 L 60 280 H -140 Z" fill="url(#scan)">
+    <animateTransform attributeName="transform" type="translate" from="0 0" to="1460 0" dur="8s" repeatCount="indefinite"/>
+  </path>
+
+  <g transform="translate(220 140)">
+    <circle r="112" fill="#06111f" stroke="#22d3ee" stroke-opacity="0.35"/>
+    <circle r="82" fill="none" stroke="#22d3ee" stroke-opacity="0.18"/>
+    <circle r="52" fill="none" stroke="#22d3ee" stroke-opacity="0.18"/>
+    <circle r="22" fill="none" stroke="#22d3ee" stroke-opacity="0.18"/>
+    <path d="M -112 0 H 112 M 0 -112 V 112" stroke="#22d3ee" stroke-opacity="0.14"/>
+    <path d="M -79 -79 L 79 79 M 79 -79 L -79 79" stroke="#22d3ee" stroke-opacity="0.08"/>
+
+    <path d="M0 0 L 108 -30 A 112 112 0 0 1 108 30 Z" fill="url(#sweep)">
+      <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="6s" repeatCount="indefinite"/>
+    </path>
+    <line x1="0" y1="0" x2="108" y2="0" stroke="#6ee7b7" stroke-width="1.6" filter="url(#glow)">
+      <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="6s" repeatCount="indefinite"/>
+    </line>
+
+    <g fill="#34d399" filter="url(#glow)">
+      <circle cx="46" cy="-58" r="3"><animate attributeName="opacity" values="0.15;1;0.15" dur="3.2s" repeatCount="indefinite"/></circle>
+      <circle cx="-72" cy="34" r="2.6"><animate attributeName="opacity" values="1;0.15;1" dur="4.1s" repeatCount="indefinite"/></circle>
+      <circle cx="30" cy="76" r="2.2" fill="#c4b5fd"><animate attributeName="opacity" values="0.2;1;0.2" dur="2.8s" repeatCount="indefinite"/></circle>
+      <circle cx="84" cy="18" r="2" fill="#f0abfc"><animate attributeName="opacity" values="1;0.2;1" dur="3.6s" repeatCount="indefinite"/></circle>
+      <circle cx="-38" cy="-82" r="1.8" fill="#67e8f9"><animate attributeName="opacity" values="0.2;1;0.2" dur="4.6s" repeatCount="indefinite"/></circle>
+    </g>
+    <g fill="none" stroke="#34d399" stroke-opacity="0.5">
+      <circle cx="46" cy="-58" r="9"><animate attributeName="r" values="3;14;3" dur="3.2s" repeatCount="indefinite"/><animate attributeName="stroke-opacity" values="0.6;0;0.6" dur="3.2s" repeatCount="indefinite"/></circle>
+      <circle cx="-72" cy="34" r="9"><animate attributeName="r" values="3;14;3" dur="4.1s" repeatCount="indefinite"/><animate attributeName="stroke-opacity" values="0.6;0;0.6" dur="4.1s" repeatCount="indefinite"/></circle>
+    </g>
+    <circle r="5" fill="#ecfeff" filter="url(#glow)"><animate attributeName="opacity" values="1;0.4;1" dur="2s" repeatCount="indefinite"/></circle>
+  </g>
+
+  <g font-family="Fira Code, Consolas, monospace">
+    <text x="398" y="48" font-size="13" font-weight="800" letter-spacing="3" fill="#6ee7b7">TELEMETRY // LIVE FEED</text>
+    <text x="398" y="72" font-size="11" letter-spacing="2" fill="#64748b">SIGNALS FROM THE BUILD FIELD</text>
+
+    <g font-size="12" font-weight="700" letter-spacing="2">
+      <text x="398" y="116" fill="#cbd5e1">REPO PULSE</text>
+      <rect x="398" y="126" width="240" height="6" rx="3" fill="#0c1b2c"/>
+      <rect x="398" y="126" width="0" height="6" rx="3" fill="#34d399"><animate attributeName="width" values="0;240;180;240" dur="6s" repeatCount="indefinite"/></rect>
+      <text x="1170" y="116" text-anchor="end" fill="#6ee7b7">53</text>
+
+      <text x="398" y="166" fill="#cbd5e1">COMMIT FLUX</text>
+      <rect x="398" y="176" width="240" height="6" rx="3" fill="#0c1b2c"/>
+      <rect x="398" y="176" width="0" height="6" rx="3" fill="#22d3ee"><animate attributeName="width" values="0;210;150;210" dur="7s" repeatCount="indefinite"/></rect>
+      <text x="1170" y="166" text-anchor="end" fill="#67e8f9">ACTIVE</text>
+
+      <text x="398" y="216" fill="#cbd5e1">UPLINK</text>
+      <rect x="398" y="226" width="240" height="6" rx="3" fill="#0c1b2c"/>
+      <rect x="398" y="226" width="0" height="6" rx="3" fill="#c4b5fd"><animate attributeName="width" values="0;228;200;228" dur="5s" repeatCount="indefinite"/></rect>
+      <text x="1170" y="216" text-anchor="end" fill="#ddd6fe">STABLE</text>
+    </g>
+
+    <g>
+      <circle cx="404" cy="256" r="3" fill="#34d399"><animate attributeName="opacity" values="1;0.2;1" dur="1.8s" repeatCount="indefinite"/></circle>
+      <text x="416" y="261" font-size="11" letter-spacing="2" fill="#94a3b8">ALL SYSTEMS NOMINAL  /  2020 → ∞</text>
+    </g>
+  </g>
+</svg>
