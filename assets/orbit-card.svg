@@ -1,0 +1,100 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1200" height="260" viewBox="0 0 1200 260" role="img" aria-label="Moon Mars analogues mission orbit">
+  <defs>
+    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0a1830"/>
+      <stop offset="100%" stop-color="#04080f"/>
+    </linearGradient>
+    <radialGradient id="earth" cx="35%" cy="30%" r="70%">
+      <stop offset="0%" stop-color="#67e8f9"/>
+      <stop offset="55%" stop-color="#0ea5e9"/>
+      <stop offset="100%" stop-color="#0c4a6e"/>
+    </radialGradient>
+    <radialGradient id="mars" cx="35%" cy="30%" r="70%">
+      <stop offset="0%" stop-color="#fca5a5"/>
+      <stop offset="55%" stop-color="#f97316"/>
+      <stop offset="100%" stop-color="#7f1d1d"/>
+    </radialGradient>
+    <radialGradient id="moon" cx="35%" cy="30%" r="70%">
+      <stop offset="0%" stop-color="#f8fafc"/>
+      <stop offset="100%" stop-color="#64748b"/>
+    </radialGradient>
+    <filter id="glow" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <path id="missionPath" d="M 130 190 C 340 40 560 40 760 130 S 1040 230 1120 90"/>
+    <linearGradient id="scan" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#22d3ee" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#22d3ee" stop-opacity="0.16"/>
+      <stop offset="100%" stop-color="#22d3ee" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="1" y="1" width="1198" height="258" rx="22" fill="url(#panel)" stroke="#1e3a5f" stroke-opacity="0.7"/>
+  <g fill="#e0f2fe">
+    <circle cx="80" cy="52" r="1.1"><animate attributeName="opacity" values="0.2;1;0.2" dur="3s" repeatCount="indefinite"/></circle>
+    <circle cx="210" cy="210" r="1.3"><animate attributeName="opacity" values="0.9;0.2;0.9" dur="3.8s" repeatCount="indefinite"/></circle>
+    <circle cx="430" cy="38" r="1.0"><animate attributeName="opacity" values="0.2;1;0.2" dur="4.2s" repeatCount="indefinite"/></circle>
+    <circle cx="650" cy="226" r="1.2"><animate attributeName="opacity" values="0.8;0.2;0.8" dur="2.9s" repeatCount="indefinite"/></circle>
+    <circle cx="880" cy="44" r="1.1"><animate attributeName="opacity" values="0.2;1;0.2" dur="3.4s" repeatCount="indefinite"/></circle>
+    <circle cx="1080" cy="214" r="1.4"><animate attributeName="opacity" values="0.9;0.2;0.9" dur="4.6s" repeatCount="indefinite"/></circle>
+    <circle cx="1160" cy="60" r="1.0"><animate attributeName="opacity" values="0.2;0.9;0.2" dur="3.1s" repeatCount="indefinite"/></circle>
+  </g>
+
+  <path d="M 0 0 H 180 L 120 260 H 0 Z" fill="url(#scan)">
+    <animateTransform attributeName="transform" type="translate" from="-200 0" to="1400 0" dur="9s" repeatCount="indefinite"/>
+  </path>
+
+  <use xlink:href="#missionPath" fill="none" stroke="#67e8f9" stroke-opacity="0.42" stroke-width="1.6" stroke-dasharray="7 11">
+    <animate attributeName="stroke-dashoffset" from="0" to="-180" dur="8s" repeatCount="indefinite"/>
+  </use>
+
+  <circle cx="282" cy="138" r="54" fill="url(#earth)" filter="url(#glow)">
+    <animate attributeName="r" values="52;57;52" dur="6s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="282" cy="138" r="63" fill="none" stroke="#38bdf8" stroke-opacity="0.3" stroke-dasharray="4 8">
+    <animateTransform attributeName="transform" type="rotate" from="0 282 138" to="360 282 138" dur="24s" repeatCount="indefinite"/>
+  </circle>
+
+  <circle cx="562" cy="86" r="18" fill="url(#moon)">
+    <animateTransform attributeName="transform" type="translate" values="0 0; 0 -6; 0 0" dur="7s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="562" cy="86" r="25" fill="none" stroke="#e2e8f0" stroke-opacity="0.25">
+    <animate attributeName="r" values="20;30;20" dur="4s" repeatCount="indefinite"/>
+    <animate attributeName="stroke-opacity" values="0.4;0.05;0.4" dur="4s" repeatCount="indefinite"/>
+  </circle>
+
+  <circle cx="900" cy="164" r="38" fill="url(#mars)" filter="url(#glow)">
+    <animate attributeName="r" values="36;41;36" dur="7s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="900" cy="164" r="47" fill="none" stroke="#fb923c" stroke-opacity="0.28" stroke-dasharray="5 8">
+    <animateTransform attributeName="transform" type="rotate" from="360 900 164" to="0 900 164" dur="20s" repeatCount="indefinite"/>
+  </circle>
+
+  <g filter="url(#glow)">
+    <circle r="4" fill="#ecfeff">
+      <animateMotion dur="8s" repeatCount="indefinite"><mpath xlink:href="#missionPath"/></animateMotion>
+    </circle>
+    <circle r="2" fill="#fcd34d">
+      <animateMotion dur="8s" begin="-1.4s" repeatCount="indefinite"><mpath xlink:href="#missionPath"/></animateMotion>
+      <animate attributeName="opacity" values="0.2;1;0.2" dur="8s" repeatCount="indefinite"/>
+    </circle>
+    <circle r="2" fill="#fcd34d">
+      <animateMotion dur="8s" begin="-2.8s" repeatCount="indefinite"><mpath xlink:href="#missionPath"/></animateMotion>
+      <animate attributeName="opacity" values="0.2;1;0.2" dur="8s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <g font-family="Fira Code, Consolas, monospace" font-size="12" font-weight="700" letter-spacing="2">
+    <text x="282" y="216" text-anchor="middle" fill="#7dd3fc">EARTH</text>
+    <text x="562" y="128" text-anchor="middle" fill="#e2e8f0">MOON</text>
+    <text x="900" y="224" text-anchor="middle" fill="#fdba74">MARS</text>
+    <text x="34" y="42" fill="#94a3b8">NASA SPACE APPS // SNSX SPACE</text>
+    <text x="1166" y="42" text-anchor="end" fill="#6ee7b7">ANALOGUE MAPPING: ACTIVE</text>
+  </g>
+  <text x="600" y="150" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="800" letter-spacing="6" fill="url(#earth)" opacity="0.9">MOON · MARS · ANALOGUES</text>
+  <text x="600" y="176" text-anchor="middle" font-family="Fira Code, Consolas, monospace" font-size="11" letter-spacing="2.5" fill="#cbd5e1">SATELLITE DATA  /  LUNAR SITES  /  MARTIAN ENVIRONMENTS</text>
+</svg>

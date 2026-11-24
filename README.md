@@ -1,19 +1,22 @@
 <div align="center">
 
-<img src="assets/hero.svg" alt="SNSX SPACE — CEH. Satya Narayan Sahu" width="1200" />
+<img src="assets/hero.svg" alt="SNSX SPACE - CEH. Satya Narayan Sahu" width="1400" />
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=2600&pause=1100&color=34D399&center=true&vCenter=true&width=860&lines=I+design+systems%2C+languages+%26+security%3B+I+build+AI+that+teaches+and+acts%3B+Welcome+to+my+orbit%2C+I%27m+Satya" alt="I design systems, languages and security; I build AI that teaches and acts" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=2500&pause=1000&color=34D399&center=true&vCenter=true&width=920&lines=I+design+systems%2C+languages+%26+security%3B+I+build+AI+that+teaches+and+acts%3B+I+map+Moon+and+Mars+from+Earth%3B+Welcome+to+my+orbit%2C+I%27m+Satya" alt="I design systems, languages and security; I build AI that teaches and acts; I map Moon and Mars from Earth" />
 
-![Repositories](https://img.shields.io/github/repos/sahusatya2008?style=for-the-badge&logo=github&label=Repositories&color=0EA5E9)
+![Repositories](https://img.shields.io/badge/Repositories-53-0EA5E9?style=for-the-badge&logo=github&logoColor=white)
 ![Followers](https://img.shields.io/github/followers/sahusatya2008?style=for-the-badge&logo=github&label=Followers&color=22C55E)
 ![Availability](https://img.shields.io/badge/Availability-Open%20to%20work-22C55E?style=for-the-badge&logo=checkmarx)
 ![Building since](https://img.shields.io/badge/Building%20since-2020-7C3AED?style=for-the-badge)
+![Orbit](https://img.shields.io/badge/Orbit-SNSX%20SPACE-7C3AED?style=for-the-badge&logo=rocket&logoColor=white)
 
 </div>
 
-<img src="assets/divider.svg" alt="" width="1200" />
+<img src="assets/divider.svg" alt="" width="1400" />
 
 ## 🛰️ Mission control
+
+<img src="assets/network.svg" alt="Animated SNSX mission network: language, systems, security, AI, education and space" width="1200" />
 
 > The pinned cards below are the **artifacts**. This is the **flight plan**.
 
@@ -32,7 +35,7 @@
   </tr>
   <tr>
     <td align="center">🤖</td>
-    <td align="left"><b>Intelligence</b><br><sub>SNSAI systems that teach, reason and act — from AI-guided harmonium learning to AI-driven commerce.</sub></td>
+    <td align="left"><b>Intelligence</b><br><sub>SNSAI systems that teach, reason and act — from guided learning to AI-driven commerce.</sub></td>
   </tr>
   <tr>
     <td align="center">🎓</td>
@@ -40,19 +43,23 @@
   </tr>
   <tr>
     <td align="center">🌍</td>
-    <td align="left"><b>Space</b><br><sub>NASA Space Apps work that maps Earth locations as analogues for lunar and Martian environments.</sub></td>
+    <td align="left"><b>Space</b><br><sub>NASA Space Apps work mapping Earth locations as analogues for permanent Moon-base sites and Martian environments.</sub></td>
   </tr>
 </table>
 
-<img src="assets/divider.svg" alt="" width="1200" />
+<img src="assets/divider.svg" alt="" width="1400" />
 
 ## 🚀 Currently in orbit
+
+<img src="assets/orbit-card.svg" alt="Animated Earth, Moon and Mars analogue mission" width="1200" />
 
 - **[SNSX Programming Language](https://github.com/sahusatya2008/SNSX-Programming-Language-Stage-I)** — a language, compiler and built-in security analysis engine in Rust.
 - **[SNSX OS Stage IV](https://github.com/sahusatya2008/SNSX-OS-Stage-IV)** — a new-generation OS with its own kernel and the SNSX language.
 - **[SNSX SecurityOS](https://github.com/sahusatya2008/SNSX-SecurityOS)** — a security-first operating system line built from the ground up.
-- **[Satya Sangeet Harmonium](https://github.com/sahusatya2008/Satya-Sangeet-Harmonium)** — an AI guide that teaches harmonium by actually playing it.
+- **[moon-mars-analouge (SNSX SPACE)](https://github.com/sahusatya2008/moon-mars-earth-analogs)** — NASA Space Apps analogue mapping: Earth locations, satellite data, permanent Moon-base sites and Martian environments.
 - **[LEOU Advance Learning](https://github.com/sahusatya2008/leou-advance-learning)** — biometric login, manual UPI billing and interactive 3D courses for students.
+
+<img src="assets/divider.svg" alt="" width="1400" />
 
 ## 🧰 Constellation
 
@@ -74,11 +81,13 @@
 
 </div>
 
-<img src="assets/divider.svg" alt="" width="1200" />
+<img src="assets/divider.svg" alt="" width="1400" />
 
 ## 📡 Telemetry
 
 <div align="center">
+
+<img src="assets/signal.svg" alt="Animated live signal meter" width="260" />
 
 <img src="https://github-readme-stats.vercel.app/api?username=sahusatya2008&show_icons=true&locale=en&theme=radical&hide_border=true&include_all_commits=true" alt="GitHub statistics" />
 
@@ -90,16 +99,19 @@
 
 </div>
 
-<img src="assets/divider.svg" alt="" width="1200" />
+<img src="assets/divider.svg" alt="" width="1400" />
+
+## 🧭 Connect
 
 <div align="center">
 
 [![Website](https://img.shields.io/badge/Website-snsx.earth-7C3AED?style=for-the-badge)](https://www.snsx.earth/founder)
-[![Email](https://img.shields.io/badge/Email-rolexsns%40outlook.com-0EA5E9?style=for-the-badge&logo=gmail&logoColor=white)](mailto:rolexsns@outlook.com)
+[![Email](https://img.shields.io/badge/Email-sahusaatya%40snsx.earth-0EA5E9?style=for-the-badge&logo=gmail&logoColor=white)](mailto:sahusaatya@snsx.earth)
 [![GitHub](https://img.shields.io/badge/GitHub-sahusatya2008-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/sahusatya2008)
-[![Open to work](https://img.shields.io/badge/Open%20to%20work-Yes-22C55E?style=for-the-badge)](https://www.snsx.earth/founder)
+[![Instagram](https://img.shields.io/badge/Instagram-thesatyaaaaa-E1306C?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/thesatyaaaaa)
+[![Open to work](https://img.shields.io/badge/Open%20to%20work-Yes-22C55E?style=for-the-badge)](mailto:sahusaatya@snsx.earth)
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=120&section=footer&text=LET%27S%20BUILD%20SOMETHING%20REAL&fontSize=30&animation=fadeIn&fontColor=ffffff" alt="Let's build something real" width="1200" />
+<img src="assets/footer.svg" alt="Let's build something real" width="1200" />
 
 <sub>**Designed in SNSX SPACE · written in public · 2020 → ∞**</sub>
 

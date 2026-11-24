@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="190" viewBox="0 0 1200 190" role="img" aria-label="Let's build something real animated footer">
+  <defs>
+    <linearGradient id="footerBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#07192a"/>
+      <stop offset="100%" stop-color="#0b0618"/>
+    </linearGradient>
+    <linearGradient id="wave1" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#34d399" stop-opacity="0.10"/>
+      <stop offset="50%" stop-color="#22d3ee" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#c4b5fd" stop-opacity="0.10"/>
+    </linearGradient>
+    <linearGradient id="wave2" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#22d3ee" stop-opacity="0.08"/>
+      <stop offset="50%" stop-color="#a78bfa" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#22d3ee" stop-opacity="0.08"/>
+    </linearGradient>
+    <linearGradient id="textGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#6ee7b7"/>
+      <stop offset="50%" stop-color="#67e8f9"/>
+      <stop offset="100%" stop-color="#ddd6fe"/>
+    </linearGradient>
+    <filter id="glow" x="-40%" y="-80%" width="180%" height="260%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="190" fill="url(#footerBg)"/>
+
+  <g fill="url(#wave2)">
+    <path d="M0 122 Q150 92 300 122 T600 122 T900 122 T1200 122 T1500 122 T1800 122 T2100 122 T2400 122 V190 H0 Z" opacity="0.5">
+      <animateTransform attributeName="transform" type="translate" from="0 0" to="-1200 0" dur="13s" repeatCount="indefinite"/>
+    </path>
+  </g>
+  <g fill="url(#wave1)">
+    <path d="M0 140 Q150 112 300 140 T600 140 T900 140 T1200 140 T1500 140 T1800 140 T2100 140 T2400 140 V190 H0 Z" opacity="0.7">
+      <animateTransform attributeName="transform" type="translate" from="-1200 0" to="0 0" dur="9s" repeatCount="indefinite"/>
+    </path>
+  </g>
+
+  <g fill="#a5f3fc">
+    <circle cx="170" cy="150" r="2"><animateTransform attributeName="transform" type="translate" values="0 20; 0 -90" dur="5s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0.9;0" dur="5s" repeatCount="indefinite"/></circle>
+    <circle cx="360" cy="160" r="1.6"><animateTransform attributeName="transform" type="translate" values="0 20; 0 -110" dur="6.2s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0.8;0" dur="6.2s" repeatCount="indefinite"/></circle>
+    <circle cx="600" cy="155" r="2.2"><animateTransform attributeName="transform" type="translate" values="0 20; 0 -100" dur="5.6s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;0" dur="5.6s" repeatCount="indefinite"/></circle>
+    <circle cx="840" cy="160" r="1.6"><animateTransform attributeName="transform" type="translate" values="0 20; 0 -105" dur="6.8s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0.8;0" dur="6.8s" repeatCount="indefinite"/></circle>
+    <circle cx="1030" cy="150" r="2"><animateTransform attributeName="transform" type="translate" values="0 20; 0 -95" dur="5.2s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0.9;0" dur="5.2s" repeatCount="indefinite"/></circle>
+  </g>
+
+  <circle cx="600" cy="74" r="46" fill="none" stroke="#22d3ee" stroke-opacity="0.25" stroke-dasharray="5 9">
+    <animateTransform attributeName="transform" type="rotate" from="0 600 74" to="360 600 74" dur="18s" repeatCount="indefinite"/>
+  </circle>
+  <text x="600" y="82" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="30" font-weight="800" letter-spacing="5" fill="url(#textGrad)" filter="url(#glow)">LET'S BUILD SOMETHING REAL<animate attributeName="opacity" values="0.4;1;0.4" dur="4s" repeatCount="indefinite"/></text>
+  <text x="600" y="112" text-anchor="middle" font-family="Fira Code, Consolas, monospace" font-size="12" letter-spacing="3" fill="#94a3b8">SNSX SPACE  ·  2020 → ∞  ·  WRITTEN IN PUBLIC</text>
+</svg>
