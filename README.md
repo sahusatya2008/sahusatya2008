@@ -6,7 +6,7 @@
 
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=2500&pause=1000&color=34D399&center=true&vCenter=true&width=920&lines=I+design+systems%2C+languages+%26+security%3B+I+build+AI+that+teaches+and+acts%3B+I+map+Moon+and+Mars+from+Earth%3B+Welcome+to+my+orbit%2C+I%27m+Satya" alt="I design systems, languages and security; I build AI that teaches and acts; I map Moon and Mars from Earth" />
 
-![Repositories](https://img.shields.io/badge/Repositories-57-0EA5E9?style=for-the-badge&logo=github&logoColor=white)
+![Repositories](https://img.shields.io/badge/Repositories-58-0EA5E9?style=for-the-badge&logo=github&logoColor=white)
 ![Followers](https://img.shields.io/github/followers/sahusatya2008?style=for-the-badge&logo=github&label=Followers&color=22C55E)
 ![Availability](https://img.shields.io/badge/Availability-Open%20to%20work-22C55E?style=for-the-badge&logo=checkmarx)
 ![Building since](https://img.shields.io/badge/Building%20since-2020-7C3AED?style=for-the-badge)
